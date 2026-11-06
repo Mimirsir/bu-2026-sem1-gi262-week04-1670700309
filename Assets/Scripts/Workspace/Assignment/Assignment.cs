@@ -23,7 +23,8 @@ namespace Assignment
         #region Assignment
 
         [Header("AS01 - Count Words")]
-        [SerializeField] private string[] as01Words;
+        [SerializeField] 
+        private string[] as01Words;
 
         public void AS01_CountWords()
         {
@@ -32,7 +33,8 @@ namespace Assignment
         }
 
         [Header("AS02 - Count Number")]
-        [SerializeField] private int[] as02Numbers;
+        [SerializeField] 
+        private int[] as02Numbers;
 
         public void AS02_CountNumber()
         {
@@ -41,7 +43,8 @@ namespace Assignment
         }
 
         [Header("AS03 - Check Valid Brackets")]
-        [SerializeField] private string as03Input;
+        [SerializeField] 
+        private string as03Input;
 
         public void AS03_CheckValidBrackets()
         {
@@ -50,7 +53,8 @@ namespace Assignment
         }
 
         [Header("AS04 - Print Reverse Linked List")]
-        [SerializeField] private IntLinkedListInput as04List = new IntLinkedListInput();
+        [SerializeField] 
+        private IntLinkedListInput as04List = new IntLinkedListInput();
 
         public void AS04_PrintReverseLinkedList()
         {
@@ -59,7 +63,8 @@ namespace Assignment
         }
 
         [Header("AS05 - Find Middle Element")]
-        [SerializeField] private StringLinkedListInput as05List = new StringLinkedListInput();
+        [SerializeField] 
+        private StringLinkedListInput as05List = new StringLinkedListInput();
 
         public void AS05_FindMiddleElement()
         {
@@ -68,8 +73,9 @@ namespace Assignment
         }
 
         [Header("AS06 - Merge Dictionaries")]
-        [SerializeField] private StringIntDictionaryInput as06FirstDictionary = new StringIntDictionaryInput();
-        [SerializeField] private StringIntDictionaryInput as06SecondDictionary = new StringIntDictionaryInput();
+        [SerializeField]
+        private StringIntDictionaryInput as06FirstDictionary = new StringIntDictionaryInput(),
+                                         as06SecondDictionary = new StringIntDictionaryInput();
 
         public void AS06_MergeDictionaries()
         {
@@ -79,7 +85,8 @@ namespace Assignment
         }
 
         [Header("AS07 - Remove Duplicates From Linked List")]
-        [SerializeField] private IntLinkedListInput as07List = new IntLinkedListInput();
+        [SerializeField] 
+        private IntLinkedListInput as07List = new IntLinkedListInput();
 
         public void AS07_RemoveDuplicatesFromLinkedList()
         {
@@ -88,7 +95,8 @@ namespace Assignment
         }
 
         [Header("AS08 - Top Frequent Number")]
-        [SerializeField] private int[] as08Numbers;
+        [SerializeField] 
+        private int[] as08Numbers;
 
         public void AS08_TopFrequentNumber()
         {
@@ -97,9 +105,12 @@ namespace Assignment
         }
 
         [Header("AS09 - Player Inventory")]
-        [SerializeField] private StringIntDictionaryInput as09Inventory = new StringIntDictionaryInput();
-        [SerializeField] private string as09ItemName;
-        [SerializeField] private int as09Quantity;
+        [SerializeField] 
+        private StringIntDictionaryInput as09Inventory = new StringIntDictionaryInput();
+        [SerializeField] 
+        private string as09ItemName;
+        [SerializeField] 
+        private int as09Quantity;
 
         public void AS09_PlayerInventory()
         {
@@ -110,7 +121,8 @@ namespace Assignment
         }
 
         [Header("AS10 - Game Event Queue")]
-        [SerializeField] private GameEventLinkedListInput as10EventQueue = new GameEventLinkedListInput();
+        [SerializeField] 
+        private GameEventLinkedListInput as10EventQueue = new GameEventLinkedListInput();
 
         public void AS10_GameEventQueue()
         {
@@ -119,9 +131,12 @@ namespace Assignment
         }
 
         [Header("AS11 - Player Stats Tracker")]
-        [SerializeField] private StringIntDictionaryInput as11PlayerStats = new StringIntDictionaryInput();
-        [SerializeField] private string as11StatName;
-        [SerializeField] private int as11Value;
+        [SerializeField] 
+        private StringIntDictionaryInput as11PlayerStats = new StringIntDictionaryInput();
+        [SerializeField] 
+        private string as11StatName;
+        [SerializeField] 
+        private int as11Value;
 
         public void AS11_PlayerStatsTracker()
         {
